@@ -1,0 +1,63 @@
+tu-proyecto-de-mapa-cultural/
+│
+├── public/
+│   ├── index.html
+│   ├── assets/
+│   │   ├── images/
+│   │   │   ├── logo.png
+│   │   │   ├── favicon.ico
+│   │   └── css/
+│   │       ├── styles.css
+│   │   └── js/
+│   │       ├── main.js
+│
+├── src/
+│   ├── server/
+│   │   ├── app.js
+│   │   ├── routes/
+│   │   │   ├── api.js
+│   │   │   ├── auth.js
+│   │   │   └── ...
+│   │   ├── controllers/
+│   │   │   ├── spaceController.js
+│   │   │   ├── userController.js
+│   │   │   └── ...
+│   │   ├── models/
+│   │   │   ├── Space.js
+│   │   │   ├── User.js
+│   │   │   └── ...
+│   │   ├── middleware/
+│   │   │   ├── authentication.js
+│   │   │   ├── authorization.js
+│   │   │   └── ...
+│   │   ├── config/
+│   │   │   ├── database.js
+│   │   │   ├── passport.js
+│   │   │   └── ...
+│
+├── client/
+│   ├── components/
+│   │   ├── Map.js
+│   │   ├── EventList.js
+│   │   └── ...
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── Profile.js
+│   │   └── ...
+│   ├── styles/
+│   │   ├── main.css
+│   │   ├── map.css
+│   │   └── ...
+│   ├── App.js
+│   ├── index.js
+│
+├── data/
+│   ├── spaces.json
+│
+├── config/
+│   ├── .env
+│
+├── package.json
+├── package-lock.json
+├── .gitignore
+├── README.md
